@@ -1,0 +1,233 @@
+/* CSS Document */
+
+/* Added to format facsimile title page */
+.epistle {
+    padding-left: 200px;
+    margin: 20px auto;
+	width: 700px;
+	text-align:left;
+	font: 1em/1.6 "Lucida Sans", Verdana, Arial, Helvetica, sans-serif; 
+	color: #333;
+	}
+
+* {
+	padding: 0;
+	margin: 0;
+	}
+body {
+	margin: 20px auto;
+	width: 700px;
+	text-align:left;
+	background: #fff;
+	font: 0.85em/1.6 "Lucida Sans", Verdana, Arial, Helvetica, sans-serif; 
+	color: #333;
+	}
+#container {
+	background: #fff url(../images/containerbg.gif) repeat-y;
+	margin: 20px auto;
+	width: 700px;
+	text-align:left;
+	border: 1px solid #ccc;
+	}
+	
+/* The basics. Header colors and styles */
+
+h1 {
+	margin: 1em 0 0 0;
+	letter-spacing: .05em;
+	color:#000;
+	font: 200 small-caps 170%/normal "Times New Roman", Times, serif;
+	}	
+h2 {
+	margin: .7em 0 0 0;
+	letter-spacing: .05em;
+	color:#6699CC;
+	font: 300 small-caps 155% "Times New Roman", Times, serif;
+	}
+
+.sub {
+	margin: .7em 0 0 0; 
+	text-transform:uppercase;
+	letter-spacing: .05em;
+	font-size: 1em;
+	font-weight:bold;
+	color:#336666;
+	}
+
+h3 {
+	margin: .7em 0 0 0; 
+	text-transform:uppercase;
+	letter-spacing: .05em;
+	font-size: 100%;
+	font-weight:bold; 
+	color:#66cc99;
+	}
+
+hr {
+	margin: 10px 0;
+	border: none 0;
+	border-bottom: 1px dashed #ccc;/*the border*/
+	height: 1px;/*whatever the total width of the border-top and border-bottom equal*/
+}
+
+blockquote {
+	padding: 0 30px;
+	font-size: 90%;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Added from critarchive.css and modified to inline-block for styling formwork signature marks and catchwords */
+
+.right {
+    text-align: right;
+    display: inline-block;
+    width: 250px;
+}
+
+.sig_center {
+	text-align: center;
+	display: inline-block;
+	width: 250px;
+}
+
+/*    - - - - - - - - H e a d e r - - - - - - */
+#header { 
+	height: 171px;
+	background: #fff no-repeat 475px 10px;
+	}
+
+
+/*- - - - - - - - - - - M a i n   C o n t e n t - - - */
+
+#main_content {
+	margin: 10px 210px 0 0;
+	padding: 10px 30px 0 30px;
+	border-right: 1px solid #D3E5F7;
+	white-space: normal;
+	}
+#main_content a, #header p a {
+	color:#66cc99;
+	}
+#main_content a:hover {
+	background-color:#FFFF99;
+	}
+	
+#main_content p {
+	padding: .7em 0;
+}
+
+#main_content form {
+	padding: .7em 0;
+	line-height:2.5em;
+	
+	}
+	
+#main_content ul {
+	list-style:none;
+	}
+#main_content ul li {
+	list-style: url(../images/list2.png) outside;	
+	margin-bottom:10px;
+	}
+#main_content ol li {
+	padding: 0 0 10px 0;
+	
+	}
+#main_content ul li ul li, #main_content dl dd ul li {
+	list-style: url(../images/list.png) none inside;	
+	padding: 0;
+	margin:0;
+}
+
+#main_content table, th, tr, td {
+text-align:center;
+border: 1px solid #ccc;
+padding: 5px;
+}
+
+#main_content img {
+border: 0;
+}
+
+#main_content dl {
+	margin: .7em 0;
+}
+
+#main_content dt, #side_menus dt {margin: 1em 0 0 0; 
+	text-transform:uppercase;
+	letter-spacing: .05em;
+	font-size: 100%;
+	font-weight:bold; 
+	color:#6699CC;}
+#main_content dd {padding-left: 15px;
+	line-height:normal;
+	margin: .7em 0;
+}
+
+
+/* - - - - - - - - - - - - - - This will be for the links at the top of XML-generated HTML pages */
+.link_xref {
+font-weight: bold;}
+
+#xml_links {
+	margin-bottom: 40px;
+	width: 100%;}
+	
+#xml_links ul {
+	padding-left: 0;
+	margin-left: 0;
+	color: #666;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#xml_links ul li { display: inline; }
+
+#xml_links ul li a
+{
+	padding: 0.02em .5em;
+	background-color: #D3E5F7;
+	color: #666;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid #fff;
+	border-bottom: none;
+}
+
+#xml_links ul li a:hover 
+{
+	background-color: #369;
+	color: #fff;
+}
+
+/* Added to format table for research assistants */
+.credits {
+	font: 0.75em/1.6 "Lucida Sans", Verdana, Arial, Helvetica, sans-serif; 
+	color: #333;
+}
+
+/* Added to format table for works attributed to Gildon */
+.works_table {
+	font: 0.75em/1.6 "Lucida Sans", Verdana, Arial, Helvetica, sans-serif; 
+	color: #333; width: 100%; margin:0 auto;
+}
+
+/* - - - - - - - - - - - - - F o o t e r - - - */
+#footer {
+	margin-top: 20px;
+	padding-top:10px;
+	clear:both;
+	text-align: center;
+	text-transform:lowercase;
+	font-size: .8em;
+	border-top: 1px solid #ccc;
+}
+#footer a {
+	text-decoration: none;
+	color: #584646;
+	}
+#footer a:hover {
+	text-decoration: underline;
+	}
